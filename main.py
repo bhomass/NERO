@@ -11,8 +11,7 @@ from models.pat_match import Pat_Match
 from models.soft_match import Soft_Match
 
 tqdm.monitor_interval = 0
-np.set_printoptions(threshold=np.nan)
-
+np.set_printoptions(threshold=sys.maxsize)
 
 def read(config):
 

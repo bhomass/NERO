@@ -2,7 +2,7 @@ import numpy as np
 import json
 
 
-with open("pattern.json", "r") as fh:
+with open("data/semeval/pattern.json", "r") as fh:
     patterns = json.load(fh)
 
 

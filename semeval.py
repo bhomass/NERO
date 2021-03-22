@@ -18,7 +18,7 @@ flags.DEFINE_string("pattern_file", "./data/semeval/pattern.json", "")
 flags.DEFINE_string("target_dir", "data", "")
 flags.DEFINE_string("log_dir", "log/event", "")
 flags.DEFINE_string("save_dir", "log/model", "")
-flags.DEFINE_string("glove_word_file", "./data/glove/glove.840B.300d.txt", "")
+flags.DEFINE_string("glove_word_file", "/data/glove/glove.840B.300d.txt", "")
 
 flags.DEFINE_string("train_file", "./data/semeval/train.json", "")
 flags.DEFINE_string("dev_file", "./data/semeval/dev.json", "")
