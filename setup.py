@@ -46,6 +46,6 @@ setup(name='nero',
           'ujson'
       ],
       extras_require=extras,
-      package_data={'NERO': ['data/*', 'data/*/*'']},
+      package_data={'NERO': ['data/*', 'data/*/*']},
       include_package_data=True,
       zip_safe=False)
